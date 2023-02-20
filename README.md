@@ -17,6 +17,16 @@ High Level Areas:
 - - - -
 #### Mechanical Principle
 - - - -
+![Project Overview Daigram](https://github.com/Killerkarebearz/PID-Marble-Position-Control/blob/main/MarbleFreeBody.svg?raw=true)
+
+The main goal of the mechanical design is to achieve a mechanism that: 
+- Is pivotable based on a DC motors output
+- Provids a track with defined ends for a marble to run along
+- Has limit switches to define the bounds of tilt
+
+The ball will roll freely back and forth along the track and should be controllable and any point along the calibrated range. 
+
+The base will hold the three potentiometers that allow live tuning of the PID Coeffiecient gains. 
 
 <br/><br/>
 #### Project Architecture
